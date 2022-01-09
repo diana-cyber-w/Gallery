@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photoContainer"
+    android:layout_width="@dimen/dimen_196"
+    android:layout_height="@dimen/dimen_264"
+    android:layout_marginHorizontal="@dimen/dimen_16"
+    android:layout_marginVertical="@dimen/dimen_5"
+    android:background="@color/purple_200">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="@dimen/dimen_190"
+        android:layout_height="@dimen/dimen_258"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/dimen_3"
+        android:layout_marginVertical="@dimen/dimen_3" />
+</RelativeLayout>
